@@ -1,11 +1,5 @@
 version: "3.3"
 services:
-  peer2profit:
-    image: peer2profit/peer2profit_linux:latest
-    container_name: peer2profit
-    restart: always
-    environment:
-      - P2P_EMAIL=cecepabd67@gmail.com
   tm:
     image: traffmonetizer/cli
     container_name: tm
