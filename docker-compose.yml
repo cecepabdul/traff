@@ -4,4 +4,5 @@ services:
     image: traffmonetizer/cli
     container_name: tm
     restart: always
-    command: start accept --token gzTE7+jVHJscmhLRx7ZxrUOwA0gPOiQgPw0qrQIZqBg=
+    command: start accept --token t0oa8CbBkExkmQqWRetXFMSx+fTapajnChEoCwT1fsI=
+
