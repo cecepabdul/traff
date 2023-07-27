@@ -4,5 +4,5 @@ services:
     image: traffmonetizer/cli
     container_name: tm
     restart: always
-    command: start accept --token t0oa8CbBkExkmQqWRetXFMSx+fTapajnChEoCwT1fsI= --device-name paas
+    command: start accept --token JTCNroRY409N02WUfP2mqqg/aMEguiZ2S1G5t4RzT9c= --device-name paas
 
