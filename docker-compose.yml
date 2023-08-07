@@ -4,5 +4,11 @@ services:
     image: traffmonetizer/cli
     container_name: tm
     restart: always
-    command: start accept --token JTCNroRY409N02WUfP2mqqg/aMEguiZ2S1G5t4RzT9c= --device-name paas
+    command: start accept --token avwzQlgwEVb/eoAErZsQBomXZTrL5beDOpK6MVr4mEc= --device-name paas
+  peer2profit:
+    image: peer2profit/peer2profit_linux:latest
+    container_name: peer2profit
+    restart: always
+    environment:
+      - P2P_EMAIL=cecepabd67@gmail.com
 
