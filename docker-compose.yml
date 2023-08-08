@@ -5,17 +5,3 @@ services:
     container_name: tm
     command: start accept --token avwzQlgwEVb/eoAErZsQBomXZTrL5beDOpK6MVr4mEc= --device-name Paas
     restart: always
-
-  psclient:
-    image: packetstream/psclient:latest
-    container_name: psclient
-    environment:
-      - CID=1hVA
-    restart: always
-
-  peer2profit:
-    image: peer2profit/peer2profit_linux:latest
-    container_name: peer2profit
-    environment:
-      - P2P_EMAIL=cecepabd67@gmail.com
-    restart: always
