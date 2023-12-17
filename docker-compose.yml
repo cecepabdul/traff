@@ -1,7 +1,0 @@
-version: '3'
-services:
-  tm:
-    image: traffmonetizer/cli:latest
-    container_name: tm
-    command: start accept --token avwzQlgwEVb/eoAErZsQBomXZTrL5beDOpK6MVr4mEc= --device-name Paas
-    restart: always
